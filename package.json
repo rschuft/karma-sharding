@@ -12,8 +12,9 @@
   },
   "keywords": [
     "karma",
-    "sharding",
-    "plugin"
+    "karma-coverage",
+    "karma-sharding",
+    "karma-plugin"
   ],
   "author": "rschuft",
   "license": "MIT",

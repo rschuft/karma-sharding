@@ -5,8 +5,6 @@
 
 > Allows Karma tests to be distributed across multiple sequentially loaded browsers
 
----
-
 ## Installation
 
 The easiest way is to install `karma-sharding` as a `devDependency`,

@@ -1,0 +1,28 @@
+{
+  "name": "karma-sharding",
+  "version": "1.0.0",
+  "description": "Allows tests to be distributed across multiple sequentially loaded browsers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rschuft/karma-sharding.git"
+  },
+  "keywords": [
+    "karma",
+    "sharding",
+    "plugin"
+  ],
+  "author": "rschuft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rschuft/karma-sharding/issues"
+  },
+  "homepage": "https://github.com/rschuft/karma-sharding#readme",
+  "dependencies": {
+    "karma-coverage": "^1.1.1",
+    "lodash": "^4.17.4"
+  }
+}

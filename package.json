@@ -2,7 +2,11 @@
   "name": "karma-sharding",
   "version": "2.0.2",
   "description": "Allows tests to be distributed across multiple sequentially loaded browsers",
-  "main": "lib/index.js",
+  "engines": { "node" : ">=6" },
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +20,23 @@
     "karma-sharding",
     "karma-plugin"
   ],
-  "author": "rschuft",
+  "contributors": [
+    {
+      "name": "Ryan Schuft",
+      "email": "ryan.schuft@gmail.com",
+      "url": "https://github.com/rschuft"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Ryan Schuft",
+      "email": "ryan.schuft@gmail.com",
+      "url": "https://github.com/rschuft"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rschuft/karma-sharding/issues"

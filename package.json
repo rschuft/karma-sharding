@@ -1,8 +1,10 @@
 {
   "name": "karma-sharding",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Allows tests to be distributed across multiple sequentially loaded browsers",
-  "engines": { "node" : ">=6" },
+  "engines": {
+    "node": ">=6"
+  },
   "main": "index.js",
   "directories": {
     "lib": "./lib"

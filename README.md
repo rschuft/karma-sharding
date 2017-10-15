@@ -5,6 +5,23 @@
 
 > Allows Karma tests to be distributed across multiple sequentially loaded browsers
 
+## Notes
+
+This is intended to avoid the memory usage problems seen with some browsers and numerous or memory intensive specs.
+If I can make this work with cookies it may be able to be adjusted to also support concurrency for parallel test execution.
+
+* The tests run sequentially and force `{ concurrency: 1 }`.
+* You can pass configuration to override these defaults:
+
+```javascript
+{
+  sharding: {
+    specMatcher: /(spec|test)s?\.js/i,
+    base: '/base'
+  }
+}
+```
+
 ## Installation
 
 The easiest way is to install `karma-sharding` as a `devDependency`,
@@ -27,9 +44,6 @@ module.exports = function(config) {
       'test/**/*.js'
     ],
 
-    // sharding replaces the coverage reporter which generates the coverage
-    reporters: ['progress', 'sharding'],
-
     frameworks: ['sharding'], // this will load the framework and beforeMiddleware
 
     preprocessors: {
@@ -44,6 +58,10 @@ module.exports = function(config) {
       type : 'html',
       dir : 'coverage/'
     },
+
+    // sharding replaces the coverage reporter inline to allow the preprocessor to run
+    // preprocessor:coverage looks for reporter:coverage otherwise it would use a unique name
+    reporters: ['progress', 'coverage'],
 
     browsers: ['ChromeHeadless', 'ChromeHeadless'] // this will split the tests into two sets
   });

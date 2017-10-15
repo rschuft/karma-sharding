@@ -7,10 +7,11 @@
   },
   "main": "index.js",
   "directories": {
-    "lib": "./lib"
+    "lib": "./lib",
+    "test": "./test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "if [ -d './coverage' ]; then rm -rf './coverage'; fi && ./node_modules/.bin/karma start"
   },
   "repository": {
     "type": "git",
@@ -47,5 +48,11 @@
   "dependencies": {
     "karma-coverage": "^1.1.1",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
   }
 }

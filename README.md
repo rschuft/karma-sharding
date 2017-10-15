@@ -4,6 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/karma-sharding.svg?style=flat-square)](https://www.npmjs.com/package/karma-sharding)
 [![npm downloads](https://img.shields.io/npm/dm/karma-sharding.svg?style=flat-square)](https://www.npmjs.com/package/karma-sharding)
 [![Build Status](https://travis-ci.org/rschuft/karma-sharding.svg?branch=master)](https://travis-ci.org/rschuft/karma-sharding)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3ef0f0244485d9ca0573/maintainability)](https://codeclimate.com/github/rschuft/karma-sharding/maintainability)
 
 > Allows Karma tests to be distributed across multiple sequentially loaded browsers
 

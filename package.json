@@ -1,6 +1,6 @@
 {
   "name": "karma-sharding",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Allows tests to be distributed across multiple sequentially loaded browsers",
   "engines": {
     "node": ">=6"

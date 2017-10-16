@@ -6,15 +6,14 @@
 [![Build Status](https://travis-ci.org/rschuft/karma-sharding.svg?branch=master)](https://travis-ci.org/rschuft/karma-sharding)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3ef0f0244485d9ca0573/maintainability)](https://codeclimate.com/github/rschuft/karma-sharding/maintainability)
 
-> Allows Karma tests to be distributed across multiple sequentially loaded browsers
+> Karma plugin to allow tests to be distributed across multiple browsers
 
 ## Notes
 
 This is intended to avoid the memory usage problems seen with some browsers and numerous or memory intensive specs.
-If I can make this work with cookies it may be able to be adjusted to also support concurrency for parallel test execution.
+Lower your concurrency setting if total memory is a problem running in parallel processes.
 
-* The tests run sequentially and force `{ concurrency: 1 }`.
-* You can pass configuration to override these defaults:
+You can pass configuration to override these defaults:
 
 ```javascript
 {

@@ -1,6 +1,6 @@
 {
   "name": "karma-sharding",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Karma plugin to allow tests to be distributed across multiple browsers",
   "engines": {
     "node": ">=6"

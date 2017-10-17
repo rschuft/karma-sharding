@@ -55,12 +55,6 @@ module.exports = function(config) {
       'src/**/*.js': ['coverage'] // coverage is loaded from karma-coverage by karma-sharding
     },
 
-    // optionally, configure the reporter as per karma-coverage
-    coverageReporter: {
-      type : 'html',
-      dir : 'coverage/'
-    },
-
     // sharding replaces the coverage reporter inline to allow the preprocessor to run
     // preprocessor:coverage looks for reporter:coverage otherwise it would use a unique name
     reporters: ['progress', 'coverage'],

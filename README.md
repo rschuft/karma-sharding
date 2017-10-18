@@ -1,12 +1,13 @@
 # karma-sharding
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/rschuft/karma-sharding)
 [![npm version](https://img.shields.io/npm/v/karma-sharding.svg?style=flat-square)](https://www.npmjs.com/package/karma-sharding)
 [![npm downloads](https://img.shields.io/npm/dm/karma-sharding.svg?style=flat-square)](https://www.npmjs.com/package/karma-sharding)
 [![Build Status](https://travis-ci.org/rschuft/karma-sharding.svg?branch=master)](https://travis-ci.org/rschuft/karma-sharding)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/rschuft/karma-sharding)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3ef0f0244485d9ca0573/maintainability)](https://codeclimate.com/github/rschuft/karma-sharding/maintainability)
 [![dependencies Status](https://david-dm.org/rschuft/karma-sharding/status.svg)](https://david-dm.org/rschuft/karma-sharding)
 [![devDependencies Status](https://david-dm.org/rschuft/karma-sharding/dev-status.svg)](https://david-dm.org/rschuft/karma-sharding?type=dev)
+[![optionalDependencies Status](https://david-dm.org/rschuft/karma-sharding/optional-status.svg)](https://david-dm.org/rschuft/karma-sharding?type=optional)
 
 > Karma plugin to allow tests to be distributed across multiple browsers
 

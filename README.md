@@ -1,6 +1,7 @@
 # karma-sharding
 
 [![npm version](https://img.shields.io/npm/v/karma-sharding.svg?style=flat-square)](https://www.npmjs.com/package/karma-sharding)
+[![NSP Status](https://nodesecurity.io/orgs/rschuft/projects/ed021736-08cf-4f6d-9796-4132029edac3/badge)](https://nodesecurity.io/orgs/rschuft/projects/ed021736-08cf-4f6d-9796-4132029edac3)
 [![npm downloads](https://img.shields.io/npm/dm/karma-sharding.svg?style=flat-square)](https://www.npmjs.com/package/karma-sharding)
 [![Build Status](https://travis-ci.org/rschuft/karma-sharding.svg?branch=master)](https://travis-ci.org/rschuft/karma-sharding)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/rschuft/karma-sharding)

@@ -6,10 +6,16 @@
     "node": true,
     "jasmine": true
   },
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:security/recommended"
+  ],
   "globals": {
     "FakeNews": true
   },
+  "plugins": [
+    "security"
+  ],
   "rules": {
     "indent": [
       "error",
@@ -26,6 +32,7 @@
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "security/detect-object-injection": 0
   }
 }

@@ -76,9 +76,19 @@ module.exports = function(config) {
     autoWatch: false,
 
 
+    // required for Travis CI
+    // https://docs.travis-ci.com/user/chrome
+    customLaunchers: {
+      ChromeHeadlessNoSandbox: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox']
+      }
+    },
+
+
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['ChromeHeadless', 'ChromeHeadless', 'ChromeHeadless'],
+    browsers: ['ChromeHeadlessNoSandbox', 'ChromeHeadlessNoSandbox', 'ChromeHeadlessNoSandbox'],
 
 
     // Continuous Integration mode

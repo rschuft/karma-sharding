@@ -1,6 +1,4 @@
 language: node_js
+sudo: required
 addons:
   chrome: stable
-before_install:
-  - # start your web application and listen on `localhost`
-  - google-chrome-stable --no-sandbox --headless --disable-gpu --remote-debugging-port=9222 http://localhost &

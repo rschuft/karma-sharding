@@ -23,7 +23,10 @@ You can pass configuration to override these defaults:
 {
   sharding: {
     specMatcher: /(spec|test)s?\.js/i,
-    base: '/base'
+    base: '/base',
+    getSets: function(config, basePath, files) {
+        return files.served.map(/*any mapper*/);
+    }
   }
 }
 ```

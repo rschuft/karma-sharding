@@ -32,6 +32,9 @@ You can pass configuration to override these defaults:
   }
 }
 ```
+`getSets` might be overridden when files from `karma.files` config should be organized in certain view, for example:
+
+`karma.files` has set - `[setup.js, one.unit.js, two.unit.js]` - and it must be combined for each browser as `[setup.js, one.unit.js]` and `[setup.js, two.unit.js]`
 
 ## Installation
 

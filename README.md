@@ -25,7 +25,9 @@ You can pass configuration to override these defaults:
     specMatcher: /(spec|test)s?\.js/i,
     base: '/base',
     getSets: function(config, basePath, files) {
-        return files.served.map(/*any mapper*/);
+        // splitForBrowsers - some util function
+        return splitForBrowsers(files.served)
+            .map(oneBrowserSet => [someInitScript].concat(oneBrowserSet));
     }
   }
 }

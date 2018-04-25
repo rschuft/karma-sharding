@@ -17,6 +17,9 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# junit reporter directory
+HeadlessChrome*
+
 # nyc test coverage
 .nyc_output
 
@@ -57,3 +60,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# for those who use idea, ignore project files
+.idea

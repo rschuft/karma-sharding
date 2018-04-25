@@ -59,7 +59,9 @@
     "karma-junit-reporter": "^1.2.0"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "path-is-absolute": "^1.0.0",
+    "xmlbuilder": "8.2.2"
   },
   "devDependencies": {
     "eslint": "^4.16.0",
@@ -67,8 +69,6 @@
     "jasmine-core": "^2.9.1",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^1.1.0",
-    "path-is-absolute": "^1.0.0",
-    "xmlbuilder": "8.2.2"
+    "karma-jasmine": "^1.1.0"
   }
 }

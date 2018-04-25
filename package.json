@@ -11,7 +11,7 @@
     "test": "./test"
   },
   "scripts": {
-    "clean": "if [ -d './coverage' ]; then rm -rf './coverage'; fi",
+    "clean": "if [ -d './coverage' ]; then rm -rf './coverage'; fi; rm -rf './HeadlessChrome*'",
     "karma": "./node_modules/.bin/karma start",
     "lint": "./node_modules/.bin/eslint --fix --config .eslintrc.json lib/\\*.js test/\\*.js index.js",
     "test": "npm run clean && npm run lint && npm run karma"
@@ -55,7 +55,8 @@
   },
   "homepage": "https://github.com/rschuft/karma-sharding#readme",
   "optionalDependencies": {
-    "karma-coverage": "^1.1.1"
+    "karma-coverage": "^1.1.1",
+    "karma-junit-reporter": "^1.2.0"
   },
   "dependencies": {
     "lodash": "^4.17.4"
@@ -66,7 +67,6 @@
     "jasmine-core": "^2.9.1",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^1.1.0",
-    "karma-junit-reporter": "^1.2.0"
+    "karma-jasmine": "^1.1.0"
   }
 }

@@ -37,6 +37,11 @@
       "name": "Mikhail Zheludev",
       "email": "jbubsk@gmail.com",
       "url": "https://github.com/jbubsk"
+    },
+    {
+      "name": "Matt Mello",
+      "email": "mmello@switchfly.com",
+      "url": "https://github.com/mmelloswf"
     }
   ],
   "maintainers": [
@@ -56,12 +61,12 @@
   "homepage": "https://github.com/rschuft/karma-sharding#readme",
   "optionalDependencies": {
     "karma-coverage": "^1.1.1",
-    "karma-junit-reporter": "^1.2.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.4",
+    "karma-junit-reporter": "^1.2.0",
     "path-is-absolute": "^1.0.0",
     "xmlbuilder": "8.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "eslint": "^4.16.0",

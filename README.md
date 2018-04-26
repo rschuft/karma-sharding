@@ -67,9 +67,9 @@ module.exports = function(config) {
       'src/**/*.js': ['coverage'] // coverage is loaded from karma-coverage by karma-sharding
     },
 
-    // sharding replaces the coverage reporter inline to allow the preprocessor to run
+    // sharding replaces the coverage and junit reporters inline to allow the preprocessor to run
     // preprocessor:coverage looks for reporter:coverage otherwise it would use a unique name
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage', 'junit'],
 
     browsers: ['ChromeHeadless', 'ChromeHeadless'] // this will split the tests into two sets
   });
